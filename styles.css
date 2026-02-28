@@ -138,3 +138,41 @@ body {
   padding: 25px 0;
   font-size: 0.9rem;
 }
+.center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  margin-top: 15px;
+}
+
+button.btn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contact-alt {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
