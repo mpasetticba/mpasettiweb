@@ -82,17 +82,32 @@
     </div>
   </section>
 
-  <!-- CONTACTO -->
-  <section id="contacto" class="section">
-    <div class="container">
-      <h3>Contacto</h3>
-      <p>¿Tenés un proyecto o necesitás asesoramiento?</p>
+ <section id="contacto" class="section light">
+  <div class="container">
+    <h3>Contacto</h3>
+    <p class="center">
+      Contame brevemente tu necesidad y te respondo a la brevedad.
+    </p>
 
-      <p class="contact-data">
-        📧 <a href="mailto:contacto@pasetti.com.ar">contacto@pasetti.com.ar</a>
-      </p>
-    </div>
-  </section>
+    <form method="POST" data-static-form-name="contacto">
+      <div class="form-grid">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+
+      <input type="text" name="asunto" placeholder="Asunto" required>
+
+      <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+
+    <p class="contact-alt">
+      o escribime directamente a  
+      <a href="mailto:contacto@pasetti.com.ar">contacto@pasetti.com.ar</a>
+    </p>
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer class="footer">
